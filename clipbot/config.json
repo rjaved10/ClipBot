@@ -1,0 +1,68 @@
+{
+  "creators": {
+    "ddg":          {"twitch": "ddg", "min_likes": 20, "names": ["ddg"],                                              "tags": ["#ddg"], "about": "DDG, the American rapper and YouTuber/streamer", "priority": 3, "always_first": true},
+    "plaqueboymax": {"twitch": "plaqueboymax", "names": ["plaqueboymax", "\"plaqueboy max\"", "\"plaque boy max\""], "tags": ["#plaqueboymax"], "about": "PlaqueBoyMax, the American Twitch streamer (5$TAR / FiveStar label)", "priority": 2,
+                     "always_first_until": "2026-11-09T08:00:00"},
+    "jasontheween": {"twitch": "jasontheween", "names": ["jasontheween", "\"jason the ween\"", "jason"], "search": ["jasontheween", "\"jason the ween\""],              "tags": ["#jasontheween"], "about": "JasonTheWeen, the American Twitch streamer", "priority": 1, "min_likes": 100},
+    "lacy":         {"twitch": "lacy", "names": ["lacy"],                                             "tags": ["#lacy"], "about": "Lacy, the American Twitch/Fortnite streamer", "priority": 0,
+                     "min_funny": 9, "min_likes_per_minute": 1.5},
+    "dub":          {"names": ["notquitelikedub", "dub"],
+                     "search": ["notquitelikedub", "\"ddg brother\"", "\"ddg's brother\"", "\"ddg’s brother\"", "\"brother dub\""],
+                     "tags": ["#dub", "#notquitelikedub"], "about": "Dub (Notquitelikedub), DDG's younger brother, the YouTuber/streamer", "priority": 1}
+  },
+  "disabled_creators": {
+    "n3on":         {"names": ["n3on", "neon"],                                     "tags": ["#neon", "#n3on"], "about": "N3on (also written Neon), the American IRL/Kick streamer"}
+  },
+  "extra_tags": ["#fyp", "#viral", "#funny", "#clips"],
+
+  "watch_accounts": [],
+  "blocked_authors": [],
+  "twitch_source": true,
+  "fast_accounts": ["yoxics", "PlaqueReport", "WeenUpdates", "scubaryan_", "viewsceo", "everythingDDG"],
+  "x_cookies_file": "cookies/x_cookies.txt",
+  "x_cookies_browser": "",
+
+  "poll_seconds": 60,
+  "search_results_per_poll": 40,
+  "min_likes": 60,
+  "min_likes_per_minute": 0.5,
+  "min_funny": 6,
+  "clipping": {"enabled": true, "tiktok_handle": "yakclipzz", "delay_minutes": 3,
+               "campaigns": {"plaqueboymax": {"slug": "plaqueboymax-x-clipping", "bounty": "pbm", "rising_star": true},
+                             "jasontheween": {"slug": "jasontheween-x-clipping", "bounty": "jason"}}},
+  "youtube": {"enabled": true, "since": "2026-11-04T16:00:00", "min_views": 500, "max_per_day": 5,
+              "give_up_hours": 48, "check_minutes": 30},
+  "peak_hours": [19, 24],
+  "peak_weight": 11,
+  "viral_likes_per_minute": 5,
+  "max_age_hours": 1,
+  "never_reaction": [],
+  "min_seconds": 6,
+  "max_seconds": 90,
+
+  "post_mode": "browser",
+  "min_minutes_between_posts": 5,
+  "count_from": "2026-11-02T18:04:00",
+  "max_posts_per_day": 16,
+  "max_queue_hours": 3,
+  "browser_headless": true,
+
+  "llm": "ollama",
+  "ollama_model": "qwen3:8b",
+  "ollama_gpu": "1660",
+  "ollama_port": 11435,
+  "anthropic_model": "claude-haiku-5-5",
+
+  "mrbeast": {
+    "enabled": true,
+    "channel_id": "UCX6OQ3DkcsbYNE6H8uQQuVA",
+    "hashtags": ["#mrbeast", "#mrbeastpartner"],
+    "max_video_age_hours": 48,
+    "min_likes": 20,
+    "min_score": 6,
+    "min_video_seconds": 15,
+    "min_minutes_between": 60
+  },
+
+  "allowed_handles": ["ddg", "n3on", "neon", "plaqueboymax", "jasontheween", "lacy", "lacyy", "kaicenat", "twitch", "kick"]
+}

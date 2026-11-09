@@ -1,0 +1,30 @@
+# Logins and sessions - never publish these
+clipbot/cookies/
+clipbot/browser_profile/
+*cookies*.txt
+.env
+.env.*
+
+# Bot data and logs
+clipbot/clips.db
+*.db
+*.db-journal
+clipbot/logs/
+*.log
+
+# Generated videos and working files
+clipbot/out/
+clipbot/work/
+*.mp4
+*.mov
+*.webm
+
+# Downloaded GPU libraries
+clipbot/gpu_libs/
+*.dll
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
